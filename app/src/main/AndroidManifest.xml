@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhin.studentinformation">
+    #granting camera perms
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".secondactivity" />
+        <activity android:name=".thirdactivity" />
+        <activity android:name=".fourthactivity" />
+        <activity android:name=".fifthactivity" />
+        <activity android:name=".sixthactivity" />
+        <activity android:name=".seventhactivity" />
+        <activity android:name=".eightactivity" />
+        <activity android:name=".ninthactivity" />
+        <activity android:name=".tenthactivity" />
+        <activity android:name=".sorry"></activity>
+    </application>
+
+</manifest>
