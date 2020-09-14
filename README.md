@@ -1,0 +1,1 @@
+Student Information System is an interactive mobile application which enables the students to easily manage their details and helps during the placements understand a students profile better by assisting them in viewing all the academic as well as other details about the student 
